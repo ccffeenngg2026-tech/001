@@ -246,7 +246,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
                 
                 <div class="relative max-w-2xl mx-auto">
                     <div class="carousel-container overflow-hidden">
-                        <div class="carousel-track flex transition-transform duration-500 ease-in-out" id="carouselTrack" style="transform: translateX(0%);">
+                        <div class="carousel-track flex transition-transform duration-500 ease-in-out" id="carouselTrack" style="transform: translateX(-200%);">
                             <!-- Images changed to aspect-square and added onclick for single image lightbox -->
                             <div class="carousel-slide flex-shrink-0 w-full px-1">
                                 <img src="img/2.jpg?v=d1" alt="Watch 1" onclick="openSingleImage(this.src)" class="w-full aspect-square object-cover rounded-lg luxury-shadow cursor-pointer" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23D4AF37%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2218%22 fill=%22%23000%22%3EWatch Collection%3C/text%3E%3C/svg%3E'">
@@ -276,9 +276,9 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
                     
                     <!-- Carousel Indicators (增加到5个) -->
                     <div class="flex justify-center mt-3 space-x-1" id="indicators">
-                        <button onclick="goToSlide(0)" class="w-2 h-2 rounded-full transition-all duration-300 indicator active bg-luxury-gold"></button>
+                        <button onclick="goToSlide(0)" class="w-2 h-2 rounded-full transition-all duration-300 indicator active bg-gray-600"></button>
                         <button onclick="goToSlide(1)" class="w-2 h-2 rounded-full hover:bg-luxury-gold/60 transition-all duration-300 indicator bg-gray-600"></button>
-                        <button onclick="goToSlide(2)" class="w-2 h-2 rounded-full hover:bg-luxury-gold/60 transition-all duration-300 indicator bg-gray-600"></button>
+                        <button onclick="goToSlide(2)" class="w-2 h-2 rounded-full hover:bg-luxury-gold/60 transition-all duration-300 indicator bg-luxury-gold"></button>
                         <button onclick="goToSlide(3)" class="w-2 h-2 rounded-full hover:bg-luxury-gold/60 transition-all duration-300 indicator bg-gray-600"></button>
                         <button onclick="goToSlide(4)" class="w-2 h-2 rounded-full hover:bg-luxury-gold/60 transition-all duration-300 indicator bg-gray-600"></button>
                     </div>
